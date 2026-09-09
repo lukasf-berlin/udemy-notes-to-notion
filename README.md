@@ -1,7 +1,7 @@
 # Udemy Notes to Notion
 
 Chrome extension that summarizes a Udemy lecture's transcript (via Groq) and
-saves a brief + bullet notes into a structured Notion page, organized by
+saves a summary and bullet notes into a structured Notion page, organized by
 course → section → lecture.
 
 ## Screenshots
@@ -12,8 +12,8 @@ course → section → lecture.
 
 ## Setup
 
-1. **Groq API key** — sign up at https://console.groq.com and create an API key.
-2. **Notion integration** — go to https://www.notion.so/my-integrations, create a
+1. **Groq API key** — sign up at [console.groq.com](https://console.groq.com) and create an API key.
+2. **Notion integration** — go to [notion.so/my-integrations](https://www.notion.so/my-integrations), create a
    new internal integration, copy its token. Then open the Notion page you
    want course notes created under, click "..." → "Connections" → add your
    integration, and copy that page's ID or URL.
@@ -28,8 +28,9 @@ course → section → lecture.
 
 ## Usage
 
-1. Open any Udemy lecture, open its transcript panel.
-2. Click the "Save Notes" button (bottom-right of the page).
+1. Open any Udemy lecture.
+2. Click the "Save Notes" button (bottom-right of the page). The transcript
+   panel is opened automatically if it isn't already.
 3. The lecture's brief + bullet notes appear as a toggle block in Notion,
    under a heading for the lecture's section, under a page for the course.
 4. Re-clicking "Save Notes" on the same lecture updates its existing toggle
